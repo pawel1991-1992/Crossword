@@ -1,4 +1,4 @@
-package crossword_first_attempt;
+package crossword;
 
 import java.awt.BasicStroke;
 import java.awt.Font;
