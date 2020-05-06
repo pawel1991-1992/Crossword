@@ -15,9 +15,9 @@ That class's name is *Crossword1.java*
 
 ## Features
 
-* Can make this and this
-* Helps with some other problew
-* Is awesome
+* Simple Menu with three options - Start, Restart and Exit
+* interactive cells that wait for mouse's click to receive chosen letter by user
+* when crossword is completed with correct headwords, program screens a picture-gift as an award
 
 
 ## Author
