@@ -1,42 +1,16 @@
-------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all he/she needs to know. The comments should usually include at least:
-------------------------------------------------------------------------
 
-PROJECT TITLE:
-PURPOSE OF PROJECT:
-VERSION or DATE:
-HOW TO START THIS PROJECT:
-AUTHORS:
-USER INSTRUCTIONS:
+# Desktop Crossword
 
-# Project title
+The purpose of this project is to create a program that can be a desktop version of a crossword that we used to know from newspapers.
 
-This project simply solves `this` problem.
+## Project assumptions and ideas 
 
-Simple code example 
+My idea of a desktop crossword consists in making simple table with size 10x15:
+![Crossword_table](/github_images/Crossword_table.jpg)
 
-```php
-use My\Super\Library\Class;
-
-$data = [[1, 3], [1, 4], [2, 4], [3, 1], [4, 1], [4, 2]];
-
-$object = new Class(1, 2, 3)
-$object->makeAwesome($data);
-```
-
-## Documentation
-
-To find out how to use this library follow [Documentation](http://link-to-documentation).
-
-## Installation
-
-You can install it with Composer:
-
-```
-composer require vendor/project
-```
+One Java class handle functionality - it means integration with user, checking written headwords, fulling the whole table with given questions. That class's name is *Main.java*
+Second Java class provides the whole content - questions, answers, positions of the headwords in the table etc.
+That class's name is *Crossword1.java*
 
 ## Features
 
@@ -44,16 +18,7 @@ composer require vendor/project
 * Helps with some other problew
 * Is awesome
 
-## Contribute
-
-* Issue Tracker: github.com/vendor/project/issues
-* Source Code: github.com/vendor/project
-* Tests: phpunit
-
-## License
-
-This project is released under the MIT Licence. See the bundled LICENSE file for details.
 
 ## Author
 
-John Doe
+pawel1991-1992
